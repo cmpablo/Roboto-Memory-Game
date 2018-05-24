@@ -1,0 +1,17 @@
+.jumbotron {
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    box-shadow: 0 3px 3px rgb(228, 59, 152);
+    background-image: linear-gradient(
+    to bottom right,
+    rgb(212, 92, 176),
+    rgb(228, 59, 152),
+    rgb(167, 12, 141))
+}
+
+h1,
+p {
+    letter-spacing: 1px;
+}

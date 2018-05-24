@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "robot01.jpg",
+    "alt": "purple robot"
+  },
+  {
+    "id": 2,
+    "image": "robot02.jpg",
+    "alt": "orange robot"
+  },
+  {
+    "id": 3,
+    "image": "robot03.jpg",
+    "alt": "teal robot"
+  },
+  {
+    "id": 4,
+    "image": "robot04.jpg",
+    "alt": "red robot"
+  },
+  {
+    "id": 5,
+    "image": "robot05.jpg",
+    "alt": "lime green robot"
+  },
+  {
+    "id": 6,
+    "image": "robot06.jpg",
+    "alt": "turquoise robot"
+  },
+  {
+    "id": 7,
+    "image": "robot07.jpg",
+    "alt": "light blue robot"
+  },
+  {
+    "id": 8,
+    "image": "robot08.jpg",
+    "alt": "yellow robot"
+  },
+  {
+    "id": 9,
+    "image": "robot09.jpg",
+    "alt": "boxy red robot"
+  },
+  {
+    "id": 10,
+    "image": "robot10.jpg",
+    "alt": "lime red robot"
+  },
+  {
+    "id": 11,
+    "image": "robot11.jpg",
+    "alt": "light purple robot"
+  },
+  {
+    "id": 12,
+    "image": "robot12.jpg",
+    "alt": "red white robot"
+  }
+]
