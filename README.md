@@ -8,6 +8,7 @@ A memory game built with React.
 
 Player clicks a robot. Once that robot is clicked, it cannot be clicked again or you lose. Every robot is worth 1 point. Click all 12 robots and you win.
 
+_Please note:_ hover state of robots is a shake. Don't be alarmed.
 
 ### Screenshots
 
