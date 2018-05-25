@@ -2,10 +2,7 @@ import React from 'react';
 import './App.css';
 import Jumbotron from './components/Jumbotron';
 import Footer from './components/Footer';
-// import Scorekeeper from './components/Scorekeeper';
 import Main from './components/Main';
-
-
 
 const styles = {
   container: {

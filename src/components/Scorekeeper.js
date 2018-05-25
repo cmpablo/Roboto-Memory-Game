@@ -9,9 +9,9 @@ class Scorekeeper extends Component {
                 <div className='col'>
                     <h3 id='playerScore'>SCORE: {this.props.score}</h3>
                 </div>
-                {/* <div className='col'>
+                <div className='col'>
                     <h3 id='highScore'>HIGH SCORE: <span id='highScoreNum'>0</span></h3>
-                </div> */}
+                </div>
             </div>
         </div>
         );

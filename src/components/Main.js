@@ -12,7 +12,7 @@ class Main extends Component {
     };
 
     clickImage = event => {
-        const currentRobots = event.target.id;
+        const currentRobots = event.target.alt;
         const robotClicked = this.state.clickedRobots.indexOf(currentRobots) > -1;
       
         if (robotClicked) {
