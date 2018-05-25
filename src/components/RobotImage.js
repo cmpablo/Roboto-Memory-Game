@@ -3,7 +3,9 @@ import "../styles/RobotImage.css";
 
 const RobotImage = props => (
     <div className="img-container">
-        <img alt={props.alt} src={require("../images/" + props.image)} />
+        <div className='card' id='robot'>
+            <img alt={props.alt} src={require("../images/" + props.image)} onClick={props.clickImage} />
+        </div>
     </div>
 );
 
