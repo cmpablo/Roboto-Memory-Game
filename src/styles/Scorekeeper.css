@@ -3,16 +3,16 @@
     background: none;
     font-family: 'Londrina Solid', cursive;
     letter-spacing: 2px;
-    color: #FEDD4B;
+    color: rgb(254, 251, 75);
     text-align: center;
 }
 
-h3 {
+#playerScore {
     margin: 40px 0 0 0;
-    font-weight: 900;
+    /* font-weight: 900; */
 }
 
-#robotIcon {
+span {
     font-size: 20px;
     padding: 0 10px;
 }

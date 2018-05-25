@@ -3,6 +3,7 @@ import RobotImage from './RobotImage';
 import Scorekeeper from './Scorekeeper';
 import robots from '../robots.json'
 
+
 class Main extends Component {
 
   state = {
@@ -16,7 +17,7 @@ class Main extends Component {
       const robotClicked = this.state.clickedRobots.indexOf(currentRobots) > -1;
     
       if (robotClicked) {
-        // if robot is no longer in play but clicked --> game resets, robots do the shuffle
+        // if robot is no longer in play but clicked --> you LOSE, game resets.
         this.setState({
           robots: this.state.robots.sort(function(a, b) {
             return 0.5 - Math.random();
@@ -25,7 +26,7 @@ class Main extends Component {
           score: 0
         });
 
-        // create alert here
+          alert('Sad horns. You lose. Try again.');
 
       } else {
 
@@ -40,11 +41,11 @@ class Main extends Component {
         score: this.state.score + 1
       },
       
-      // if all robots are successfully clicked --> YOU WIN message, game resets
+      // if all robots are successfully clicked --> YOU WIN, game resets.
       () => {
         if (this.state.score === 12) {
 
-          // create YOU WIN message
+          alert('YOU WIN! Your memory is stellar. The robots applaud you.');
 
           this.setState({
             robots: this.state.robots.sort(function(a, b) {
@@ -52,6 +53,7 @@ class Main extends Component {
           }),
           clickedRobots: [],
           score: 0
+          
           });
         }
       }
