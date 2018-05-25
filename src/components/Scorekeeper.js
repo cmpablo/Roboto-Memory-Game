@@ -7,10 +7,10 @@ class Scorekeeper extends Component {
         <div className='card'>
             <div className='row'>
                 <div className='col'>
-                    <h3 id='playerScore'>SCORE: {this.props.score}</h3>
+                    <h3 id='playerScore'><span className="fas fa-robot" id="robotIcon"></span>YOUR SCORE: {this.props.score}</h3>
                 </div>
                 <div className='col'>
-                    <h3 id='highScore'>HIGH SCORE: <span id='highScoreNum'>0</span></h3>
+                    <h3 id='alert'>blerg</h3>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@
   {
     "id": 10,
     "image": "robot10.jpg",
-    "alt": "lime red robot"
+    "alt": "red white robot"
   },
   {
     "id": 11,
@@ -57,6 +57,6 @@
   {
     "id": 12,
     "image": "robot12.jpg",
-    "alt": "red white robot"
+    "alt": "lime red robot"
   }
 ]

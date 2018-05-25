@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 const Footer = () => (
     <footer className="footer">
 
-        <h6>Mr. Roboto Memory Game © 2018</h6>
+        <h6>MR. ROBOTO MEMORY GAME © 2018</h6>
     
     </footer>
 );
